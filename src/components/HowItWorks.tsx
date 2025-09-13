@@ -40,7 +40,7 @@ export const HowItWorks = () => {
             <span className="bg-gradient-primary bg-clip-text text-transparent"> Works</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Get aircraft transparency in four simple steps, powered by real-time aviation data.
+            Our mobile app delivers aircraft transparency in four simple steps, powered by real-time aviation data.
           </p>
         </div>
 
@@ -54,8 +54,8 @@ export const HowItWorks = () => {
               >
                 <div className="flex items-start gap-6">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                      <step.icon className="w-6 h-6 text-primary" />
+                    <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                      <step.icon className="w-8 h-8 text-primary" />
                     </div>
                     <div className="text-center mt-2">
                       <span className="text-xs font-bold text-primary">{step.number}</span>
@@ -87,7 +87,7 @@ export const HowItWorks = () => {
         {/* CTA */}
         <div className="text-center mt-16">
           <Button variant="hero" size="lg">
-            Try Demo Flight
+            Sign Up for Early Access
           </Button>
         </div>
       </div>

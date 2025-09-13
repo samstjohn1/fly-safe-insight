@@ -29,7 +29,7 @@ export const CTA = () => {
             </h2>
             
             <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 leading-relaxed">
-              Join thousands of travelers who use aircraft transparency data to reduce flight anxiety and make informed travel decisions.
+              Be among the first to access our mobile app and get instant aircraft transparency for every flight.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -38,7 +38,7 @@ export const CTA = () => {
                 size="lg" 
                 className="w-full sm:w-auto group"
               >
-                Get Started Now
+                Sign Up for Early Access
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
               </Button>
               
@@ -47,7 +47,7 @@ export const CTA = () => {
                 size="lg" 
                 className="w-full sm:w-auto bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/20"
               >
-                View Demo
+                Watch Demo
               </Button>
             </div>
             
